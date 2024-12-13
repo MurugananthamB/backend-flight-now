@@ -37,7 +37,7 @@ This is the **backend** service for the Flight Booking and Reservation System. I
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/yourusername/flight-booking.git
+   git clone https://github.com/yourusername/backend-flight-now.git
    cd backend-flight
 2. Install dependencies:
    ```bash
