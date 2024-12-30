@@ -69,10 +69,10 @@ app.use("/api/attractions", attractionsRoutes); // Add attractions route
 app.get("/", (req, res) => {
   res.send("Welcome to the Flight Booking API");
 });
-app.get("/", (req, res) => {
-  res.send("Welcome to the Flight Booking API");
-  res.send("/api/");
-});
+// app.get("/", (req, res) => {
+//   res.send("Welcome to the Flight Booking API");
+//   res.send("/api/");
+// });
 
 const PORT = process.env.PORT || 5000;
 app.listen(PORT, () => {
